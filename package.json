@@ -1,0 +1,32 @@
+{
+  "name": "lint-delta",
+  "version": "1.0.0",
+  "description": "Lint only modified files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lint-delta": "bin/lint-delta.js"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },  
+  "keywords": [
+    "lint",
+    "nextgen"
+  ],
+  "author": "Szymon Kolorz",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "5.6.1",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jasmine": "2.8.3",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "eslint-plugin-xss": "0.1.9",
+    "acorn": "6.0.4"
+  }
+}
