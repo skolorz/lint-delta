@@ -1,7 +1,7 @@
 {
-  "name": "lint-delta",
-  "version": "1.0.0",
-  "description": "Lint only modified files",
+  "name": "eslint-delta",
+  "version": "0.0.1",
+  "description": "Run esint only on diff from master branch",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,10 +13,16 @@
     "node": ">= 0.8.0"
   },  
   "keywords": [
-    "lint",
-    "nextgen"
+    "eslint",
+	"lint",
+	"ci",
+    "git"
   ],
   "author": "Szymon Kolorz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skolorz/lint-delta"
+  },  
   "license": "ISC",
   "dependencies": {
     "eslint": "5.6.1",
